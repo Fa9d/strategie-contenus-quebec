@@ -1,0 +1,86 @@
+# ─── Système ───────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── Éditeurs ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# ─── Python ─────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ─── Node / TypeScript ───────────────────────────────────────
+node_modules/
+dist/
+.next/
+.nuxt/
+*.js.map
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ─── Médias lourds (exports vidéo / audio) ───────────────────
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.aac
+*.aiff
+
+# ─── Fichiers de travail Premiere / DaVinci / CapCut ─────────
+*.prproj
+*.drp
+*.aep
+*.ppj
+*.autosave
+
+# ─── Images lourdes (garder les petites, ignorer les RAW) ────
+*.psd
+*.ai
+*.eps
+*.raw
+*.cr2
+*.nef
+*.arw
+
+# ─── Exports / archives générés ──────────────────────────────
+exports/
+output/
+render/
+*.zip
+*.tar.gz
+*.rar
+
+# ─── Fichiers sensibles ───────────────────────────────────────
+.env
+.env.local
+.env*.local
+secrets.json
+credentials.json
+
+# ─── Divers ──────────────────────────────────────────────────
+*.log
+.cache/
